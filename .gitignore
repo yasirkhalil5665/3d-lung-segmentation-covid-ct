@@ -1,21 +1,22 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.venv
+# Virtual environments
+monai-env*/
 venv/
-monai-env311/
+.venv/
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# Data and Predictions
+# Data, outputs, weights
 data/
 predictions/
+models/
+*.pth
+*.pt
+*.nii
+*.nii.gz
+*.zip
 
-# Models
-models/*.pth
-
-# OS
+# Other
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+tmp/
 .DS_Store
 Thumbs.db
