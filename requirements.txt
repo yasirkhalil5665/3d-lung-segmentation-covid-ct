@@ -1,2 +1,10 @@
+# Core
+torch>=2.0
+monai>=1.3
+nibabel>=5.0
 numpy
-monai
+matplotlib
+
+# Notebook
+jupyterlab
+ipykernel
