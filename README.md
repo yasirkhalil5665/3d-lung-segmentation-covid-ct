@@ -2,7 +2,6 @@
 
 A 3D U-Net, built with [MONAI](https://monai.io) and PyTorch, that segments the **left and right lung** on chest CT scans from COVID-19 patients. Predictions are saved as NIfTI files and can be inspected in [3D Slicer](https://www.slicer.org).
 
-> Learning project. Not a medical device and not for clinical use.
 
 ## What it does
 
@@ -14,6 +13,12 @@ A 3D U-Net, built with [MONAI](https://monai.io) and PyTorch, that segments the 
 6. Saves predictions as `.nii.gz` for viewing in 3D Slicer
 
 Output classes: `0` background, `1` left lung, `2` right lung.
+
+ORIGINAL MASK(LABEL):
+<img width="1920" height="1080" alt="Original" src="https://github.com/user-attachments/assets/1d134357-8123-4fcf-ae34-b8b72a21444e" />
+
+PREDICTION FROM U-NET:
+<img width="1920" height="1080" alt="U-Nets prediction with original as mask" src="https://github.com/user-attachments/assets/87278043-d660-42a8-a8f4-bb4c26c383f1" />
 
 ## Dataset
 
